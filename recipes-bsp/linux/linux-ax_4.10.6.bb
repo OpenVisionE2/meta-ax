@@ -9,6 +9,8 @@ COMPATIBLE_MACHINE = "triplex"
 
 inherit kernel machine_kernel_pr
 
+MACHINE_KERNEL_PR_append = ".1"
+
 SRC_URI[md5sum] = "e5d32dd03b742e6101fde917dcba837d"
 SRC_URI[sha256sum] = "2997b825996beabc25d2428d37d680f56e4fa971500eabd2033a6fc13cf5765e"
 
@@ -38,6 +40,7 @@ SRC_URI += "http://source.mynonpublic.com/ax/linux-${PV}-${ARCH}.tar.gz \
     file://v3-3-3-media-dvbsky-MyGica-T230C-support.patch \
     file://v3-3-4-media-dvbsky-MyGica-T230C-support.patch \
     file://v3-3-5-media-dvbsky-MyGica-T230C-support.patch \
+    file://add-more-devices-rtl8xxxu.patch \
     "
 
 S = "${WORKDIR}/linux-${PV}"
