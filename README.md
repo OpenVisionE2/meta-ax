@@ -1,2 +1,2 @@
 # meta-ax
-AX BSP layer for PLi's OE
+AX BSP layer for Open Vision
