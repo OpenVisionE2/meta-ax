@@ -5,7 +5,7 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 KERNEL_RELEASE = "4.10.6"
 
-COMPATIBLE_MACHINE = "triplex"
+COMPATIBLE_MACHINE = "^(triplex)$"
 
 inherit kernel machine_kernel_pr
 
