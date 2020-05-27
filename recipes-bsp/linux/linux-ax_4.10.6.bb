@@ -40,6 +40,8 @@ SRC_URI += "http://source.mynonpublic.com/ax/linux-${PV}-${ARCH}.tar.gz \
     file://v3-3-4-media-dvbsky-MyGica-T230C-support.patch \
     file://v3-3-5-media-dvbsky-MyGica-T230C-support.patch \
     file://add-more-devices-rtl8xxxu.patch \
+    file://0005-xbox-one-tuner-4.10.patch \
+    file://0006-dvb-media-tda18250-support-for-new-silicon-tuner.patch \
     file://0003-makefile-disable-warnings.patch \
     "
 
