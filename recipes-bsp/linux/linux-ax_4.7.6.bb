@@ -33,7 +33,7 @@ SRC_URI += "http://source.mynonpublic.com/ax/linux-${PV}-${ARCH}.tar.gz \
     file://0002-makefile-disable-warnings.patch \
     "
 
-inherit kernel machine_kernel_pr
+inherit kernel machine_kernel_pr samba_change_dialect
 
 S = "${WORKDIR}/linux-${PV}"
 B = "${WORKDIR}/build"
