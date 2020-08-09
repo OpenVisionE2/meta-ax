@@ -1,4 +1,3 @@
-KV = "4.10.6"
 SRCDATE = "20180408"
 
 require ax-dvb-modules.inc

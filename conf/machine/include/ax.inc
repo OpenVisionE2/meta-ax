@@ -9,16 +9,15 @@ KERNEL_FILE = "kernel.bin"
 ROOTFS_FILE = "rootfs.bin"
 
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
-    ax-dvb-modules-${MACHINE} \
-    "
+	ax-dvb-modules-${MACHINE} \
+	"
 
 DVBPROVIDER = "kernel"
 DVBSKYPROVIDER = "kernel"
 
 MACHINE_EXTRA_RRECOMMENDS += "\
-    gstreamer1.0-plugin-dvbmediasink \
-    "
-
+	gstreamer1.0-plugin-dvbmediasink \
+	"
 
 TARGET_ARCH = "mipsel"
 DEFAULTTUNE = "mips32el"
@@ -49,7 +48,6 @@ IMAGE_CMD_ubi_append = " \
     rm -f ${DEPLOY_DIR_IMAGE}/*.ubifs; \
     rm -Rf ${IMAGEDIR}; \
     "
-
 
 MACHINE_FEATURES += "alsa hdmicec switchoff videoenhancement HDMI"
 
