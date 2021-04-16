@@ -12,7 +12,6 @@ MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
 	ax-dvb-modules-${MACHINE} \
 	"
 
-DVBPROVIDER = "kernel"
 DVBSKYPROVIDER = "kernel"
 
 TARGET_ARCH = "mipsel"
