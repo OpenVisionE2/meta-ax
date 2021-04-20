@@ -44,7 +44,7 @@ IMAGE_CMD_ubi_append = " \
 	rm -Rf ${IMAGEDIR}; \
 	"
 
-MACHINE_FEATURES += "alsa hdmicec switchoff videoenhancement HDMI"
+MACHINE_FEATURES += "alsa hdmicec switchoff videoenhancement HDMI linuxwifi"
 
 BOOTLOGO_FILENAME = "splash.bin"
 
